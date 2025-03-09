@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form method="POST">
+    <h3 align="center">SignUp</h3>
+    <div class="mb-3">
+        <label for="username" class="form-label">UserName</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="username" placeholder="Enter Username">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+    </div>
+    <div>
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" name="password1" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Password">
+    </div><br>
+    <div>
+        <label for="inputPassword5" class="form-label">Confirm Password</label>
+        <input type="password" id="inputPassword5" name="password2" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Password Again">
+    </div>
+    <div id="passwordHelpBlock" class="form-text">
+    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+    </div>
+    <br>
+    <div align="center">
+        <button class="btn btn-primary" type="submit">SignUp</button>
+    </div>
+</form>
+{% endblock content %}

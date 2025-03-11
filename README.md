@@ -86,5 +86,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Flask-Login](https://flask-login.readthedocs.io/)
 - [Bootstrap](https://getbootstrap.com/)
 
-##It is a guided project
+### It is a guided project
 [YouTube- Tech With Tim](https://www.youtube.com/@TechWithTim)

@@ -42,8 +42,8 @@ Python Blog Project/
 
 2. Create a virtual environment and activate it:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python -m venv myenv
+    source myenv/bin/activate  # On Windows use `.\myenv\Scripts\activate`
     ```
 
 3. Install the required packages:
@@ -85,3 +85,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 - [Flask-Login](https://flask-login.readthedocs.io/)
 - [Bootstrap](https://getbootstrap.com/)
+
+### It is a guided project
+[YouTube- Tech With Tim](https://www.youtube.com/@TechWithTim)

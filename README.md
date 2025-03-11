@@ -60,9 +60,9 @@ Python Blog Project/
     ...     db.create_all()
     ```
 
-5. Run the application:
+5. Run the application on terminal:
     ```sh
-    flask run
+    python app.py
     ```
 
 ## Usage
